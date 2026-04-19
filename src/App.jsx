@@ -200,7 +200,7 @@ export default function App() {
                   initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
                   style={{ fontSize: 'clamp(1.2rem, 3vw, 1.8rem)', fontWeight: 600, color: 'var(--accent-cyber-peach)', display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '0.8rem', marginBottom: '2.5rem' }}
                 >
-                  <GraduationCap size={32} /> Newton School of Technology
+                  <GraduationCap size={32} /> Newton School of Technology, ADYPU
                 </motion.h4>
 
                 <motion.p
@@ -218,8 +218,26 @@ export default function App() {
                     <BrainCircuit size={18} color="var(--accent-electric-violet)" /> Specialization: AI & ML
                   </span>
                   <span style={{ padding: '0.8rem 1.5rem', backgroundColor: 'rgba(255,255,255,0.7)', border: '1px solid rgba(255,255,255,0.9)', boxShadow: '0 4px 15px rgba(0,0,0,0.03)', borderRadius: '50px', fontSize: '1rem', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <Code2 size={18} color="var(--accent-cyber-peach)" /> CodeChef & LeetCode Context
+                    <GraduationCap size={18} color="var(--accent-cyber-peach)" /> Grade: 6.87/10.0
                   </span>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.7 }}
+                  style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', marginTop: '3rem', paddingTop: '3rem', borderTop: '1px solid rgba(0,0,0,0.05)' }}
+                >
+                  <div>
+                    <h5 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.5rem' }}>Intermediate (Class XII)</h5>
+                    <p style={{ color: 'var(--text-obsidian)', fontWeight: 600, opacity: 0.8 }}>Birla School Pilani</p>
+                    <p style={{ fontSize: '0.9rem', opacity: 0.6, marginBottom: '1rem' }}>2023 - 2024</p>
+                    <span className="badge">Grade: 67.0%</span>
+                  </div>
+                  <div>
+                    <h5 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.5rem' }}>Matriculation (Class X)</h5>
+                    <p style={{ color: 'var(--text-obsidian)', fontWeight: 600, opacity: 0.8 }}>Satyug Darshan Vidyalaya</p>
+                    <p style={{ fontSize: '0.9rem', opacity: 0.6, marginBottom: '1rem' }}>2021 - 2022</p>
+                    <span className="badge">Grade: 65.0%</span>
+                  </div>
                 </motion.div>
               </div>
             </div>
@@ -254,7 +272,7 @@ export default function App() {
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
                 <div>
                   <p style={{ fontFamily: 'Outfit', color: 'var(--accent-electric-violet)', fontWeight: 700, marginBottom: '0.5rem', letterSpacing: '1px', textTransform: 'uppercase' }}>Full-Stack Application</p>
-                  <h3 style={{ fontSize: '2.5rem', fontWeight: 800, letterSpacing: '-1px' }}>Basketball-Pro</h3>
+                  <h3 style={{ fontSize: '2.5rem', fontWeight: 800, letterSpacing: '-1px' }}>CourtX</h3>
                 </div>
                 <div style={{ display: 'flex', gap: '1rem' }}>
                   <a href="https://github.com/bitforge05/basketball-calculator.git" target="_blank" rel="noreferrer" className="btn-secondary" style={{ padding: '0.5rem 1rem' }}><FaGithub size={20} /> Code</a>
@@ -266,13 +284,14 @@ export default function App() {
                 <span className="badge">Node.js</span>
                 <span className="badge">Express.js</span>
                 <span className="badge">REST APIs</span>
+                <span className="badge">Real-Time</span>
                 <span className="badge">Analytics</span>
               </div>
 
               <p style={{ opacity: 0.85, lineHeight: 1.8, fontSize: '1.15rem', maxWidth: '850px' }}>
-                A robust full-stack project built to replace manual scoreboard tracking.
-                It effectively handles synchronized timing, dynamic court toggles (full vs. half court), and visualizes the ongoing game.
-                Powered by a custom backend API, it reliably tracks match history and serves comprehensive game analytics for different match types.
+                A full-stack basketball analytics platform built to replace manual score tracking and eliminate errors in scoring and fouls.
+                Features a synchronized game timer, dynamic court toggle (full/half court), and smart scoring with validation and instant updates.
+                Backed by a Node.js/Express API that stores match history so teams can review past results by match type.
               </p>
             </div>
           </motion.div>
@@ -290,26 +309,27 @@ export default function App() {
             <div style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
                 <div>
-                  <p style={{ fontFamily: 'Outfit', color: 'var(--accent-cyber-peach)', fontWeight: 700, marginBottom: '0.5rem', letterSpacing: '1px', textTransform: 'uppercase' }}>Frontend Web Application</p>
-                  <h3 style={{ fontSize: '2.5rem', fontWeight: 800, letterSpacing: '-1px' }}>Library_lite</h3>
+                  <p style={{ fontFamily: 'Outfit', color: 'var(--accent-cyber-peach)', fontWeight: 700, marginBottom: '0.5rem', letterSpacing: '1px', textTransform: 'uppercase' }}>AI-Powered Application</p>
+                  <h3 style={{ fontSize: '2.5rem', fontWeight: 800, letterSpacing: '-1px' }}>SummarizeIt</h3>
                 </div>
                 <div style={{ display: 'flex', gap: '1rem' }}>
-                  <a href="https://github.com/bitforge05/Library_Lite.git" target="_blank" rel="noreferrer" className="btn-secondary" style={{ padding: '0.5rem 1rem' }}><FaGithub size={20} /> Code</a>
-                  <a href="https://library-lite-1.onrender.com/" target="_blank" rel="noreferrer" className="btn-primary" style={{ padding: '0.5rem 1rem' }}><ExternalLink size={20} /> Demo</a>
+                  <a href="https://github.com/bitforge05/summarizeIt" target="_blank" rel="noreferrer" className="btn-secondary" style={{ padding: '0.5rem 1rem' }}><FaGithub size={20} /> Code</a>
+                  <a href="https://summarize-it-eta.vercel.app/" target="_blank" rel="noreferrer" className="btn-primary" style={{ padding: '0.5rem 1rem' }}><ExternalLink size={20} /> Demo</a>
                 </div>
               </div>
 
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1rem' }}>
-                <span className="badge">React</span>
-                <span className="badge">Vite</span>
-                <span className="badge">TailwindCSS</span>
-                <span className="badge">Modular UI</span>
+                <span className="badge">Python</span>
+                <span className="badge">FastAPI</span>
+                <span className="badge">RAG Pipeline</span>
+                <span className="badge">FAISS</span>
+                <span className="badge">LLM</span>
               </div>
 
               <p style={{ opacity: 0.85, lineHeight: 1.8, fontSize: '1.15rem', maxWidth: '850px' }}>
-                A lightweight responsive web application focused strictly on seamless user experience for library management.
-                Users can actively view available books and interact with book records with zero latency.
-                Built extensively with React + Vite, focusing heavily on modular code structure and smooth frontend-to-backend data handoffs.
+                An AI-powered document analysis platform that lets users upload text files and interact through summaries and Q&amp;A.
+                Implements a RAG (Retrieval-Augmented Generation) pipeline for contextual, accurate responses and uses FAISS for fast similarity search.
+                Features question-answering functionality to help users deeply understand and prepare content efficiently.
               </p>
             </div>
           </motion.div>
@@ -374,7 +394,8 @@ export default function App() {
                   <span className="badge">MySQL</span>
                   <span className="badge">MongoDB</span>
                   <span className="badge">Prisma ORM</span>
-                  <span className="badge">Git Flow</span>
+                  <span className="badge">Git &amp; GitHub</span>
+                  <span className="badge">Docker</span>
                 </div>
               </div>
             </div>
