@@ -314,7 +314,7 @@ export default function App() {
                 </div>
                 <div style={{ display: 'flex', gap: '1rem' }}>
                   <a href="https://github.com/bitforge05/summarizeIt" target="_blank" rel="noreferrer" className="btn-secondary" style={{ padding: '0.5rem 1rem' }}><FaGithub size={20} /> Code</a>
-                  <a href="https://summarize-it-eta.vercel.app/" target="_blank" rel="noreferrer" className="btn-primary" style={{ padding: '0.5rem 1rem' }}><ExternalLink size={20} /> Demo</a>
+                  <a href="https://summarizeit-eight.vercel.app/" target="_blank" rel="noreferrer" className="btn-primary" style={{ padding: '0.5rem 1rem' }}><ExternalLink size={20} /> Demo</a>
                 </div>
               </div>
 
